@@ -1,11 +1,20 @@
-            /* Custom CSS */
-            .navbar-custom {
-                background-color: #343a40; /* Dark background */
-            }
-            .navbar-custom .navbar-brand,
-            .navbar-custom .nav-link {
-                color: #ffffff; /* White text */
-            }
-            .navbar-custom .nav-link:hover {
-                color: #d4d4d4; /* Light gray text on hover */
-            }
+        /* Custom styles for branding and links */
+        .header_background-img{
+            background-image: url(image_folder/header_background.png);
+        }
+        header{
+            position: sticky;
+            top: 0;
+            z-index: 999;
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .navbar-nav .nav-item .nav-link {
+            font-size: 1.2rem;
+            padding: 0.5rem 1rem;
+        }
+        .brand_logo img{
+            width: 100px;
+        }
