@@ -152,13 +152,16 @@ ul.nav-links {
 /* section no.1 end from here */
 
 /* cards section start*/
+
+/* 1st card satrt */
 .card {
-    background-color:#84C0E7;
+    background-color: #84C0E7;
     overflow: hidden;
     width: 300px;
-    height: 178px; /* Added height to fit the image */
+    height: 178px;/* Added height to fit the image */
+    padding: 10px;
     border-radius: 5px;
-    margin:10px;
+    margin: 10px;
     text-align: center;
     position: relative;
     display: flex;
@@ -167,160 +170,223 @@ ul.nav-links {
 }
 
 
-.card_container{
+.card_container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.card_container a{
+.card_container a {
     text-decoration: none;
 }
 
-
-.batminton-1_img img {
-    width: 66%;
-    object-fit: cover;
+.card .batminton-1_img img {
+    width: 180px;
     position: relative;
-    bottom: -151px;
-    left: -69px;
-    transition: 0.5s ease;
+    bottom: -76px;
+    left: -2px;
+    transition: all 0.9s ease;
+    /* Added transition */
 }
 
-
-.card:hover .batminton-1_img img{
-    width: 70%;
-    transform: translatey(-28px);
-    transition: 0.5s ease;
+.card:hover .batminton-1_img img {
+    width: 200px;
+    bottom: -40px;
+    transition: all 0.5s ease;
+    /* Ensuring transition on hover */
 }
 
-.image_2 img {
+.card .batminton-2_img img {
+    width: 80px;
     position: relative;
-    top: -148px;
-    width: 30%;
-    left: 95px;
+    bottom: -11px;
+    left: 20px;
+    transition: all 0.9s ease;
 }
 
-.card:hover .image_2 img{
-    width: 35%;
-    transform: translatex(-28px);
-    transition: 0.5s ease;
+.card:hover .batminton-2_img img {
+    width: 100px;
+    bottom: 5px;
+    left: -45px;
+    transition: all 0.5s ease;
 }
 
+.card .text {
+    color: var(--light);
+}
 
-.text,.basketball_text h4{
+.card .text h4 {
     font-family: "Montserrat", sans-serif;
+    font-size: 25px;
 }
 
-.text h4{
-    font-weight: 600;
-    font-size:  30px;
-}
-
-.text span{
+.card span {
     font-family: "Hind", sans-serif;
-    font-size: 12px;
-    text-align: left;
+    font-size: 10px;
 }
 
-
-.image_2 .text {
-    color: var(--light);
+.text {
     position: relative;
-    top: -52px;
     text-align: start;
+    width: 168%;
+    bottom: -79px;
+    padding: 20px;
+    left: -150px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(0 0 0 / 82%) 10%, rgb(55 53 53 / 0%) 80%);
+    transition: all 0.9s ease;
 }
 
-
-.card:hover .image_2 .text {
-    color: var(--light);
+.card:hover .batminton-2_img .text {
     position: relative;
-    top: -110px;
-    transform: translatey(-28px);
-    padding: 9px 10px;
-    background: rgb(56, 55, 55);
-    background: linear-gradient(0deg, rgb(0 0 0 / 58%) 10%, rgb(0 0 0 / 1%) 80%);
-    transition: 0.5s ease;
+    width: 168%;
+    padding: 20px;
+    bottom: -17px;
+    left: -163px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgb(0 0 0 / 82%) 10%, rgb(55 53 53 / 0%) 80%);
+    transition: all 0.5s ease;
 }
 
+/* 1st card satrt */
 
 /* 2nd card start  */
+.card h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+}
 
-.card {
-    background-color:#84C0E7;
-    overflow: hidden;
-    width: 300px;
-    height: 178px; /* Added height to fit the image */
-    border-radius: 5px;
-    margin:10px;
-    text-align: center;
+
+.card .basketball-1_img img {
+    width: 154px;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    bottom: -63px;
+    left: 47px;
+    transition: all 0.5s ease;
 }
 
-.card_container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.card:hover .basketball-1_img img {
+    width: 176px;
+    bottom: -35px;
+    left: 47px;
+    transition: all 0.5s ease;
 }
 
-.basketball_1-img img {
-    width: 72%;
-    object-fit: cover;
+.card .basketball-1_img img {
+    width: 164px;
+    bottom: -64px;
+    transition: all 0.5s ease;
+}
+
+.card .basketball-2_img img {
+    width: 102px;
     position: relative;
-    bottom: -151px;
-    left: -30px;
-    transition: 0.5s ease;
+    bottom: 20px;
+    left: 28px;
+    transition: all 0.5s ease;
 }
 
-
-.card:hover .basketball_1-img img{
-    width: 70%;
-    transform: translatey(-28px);
-    transition: 0.5s ease;
-}
-
-.basketball_2 img {
+.card:hover .basketball-2_img img {
+    width: 136px;
     position: relative;
-    top: -83px;
-    width: 42%;
-    left: 101px;
+    bottom: -15px;
+    left: 10px;
+    transition: all 0.5s ease;
 }
 
-.card:hover .basketball_2 img {
-    width: 48%;
-    transform: translatey(15px);
-    transition: 0.5s ease;
-}
-
-.basketball_2 .text {
+.card .basketball_text {
     color: var(--light);
-    position: relative;
-    top: -34px;
+}
+
+.basketball_text {
+    position: absolute;
     text-align: start;
+    top: 171px;
+    left: 0px;
+    width: 100%;
+    padding: 6px 13px;
+    background: linear-gradient(0deg, rgb(0 0 0 / 68%) 10%, rgb(0 0 0 / 1%) 80%);
+    transition: all 0.5s ease;
+
 }
 
-.card:hover .basketball_2 .text {
-    color: var(--light);
+.card:hover .basketball_text {
+    position: absolute;
+    text-align: start;
+    top: 117px;
+    left: 0px;
+    width: 100%;
+    padding: 6px 13px;
+    background: linear-gradient(0deg, rgb(0 0 0 / 68%) 10%, rgb(0 0 0 / 1%) 80%);
+    transition: all 0.5s ease;
+
+}
+/* 2nd card End */
+
+
+/* 3rd card start */
+.card .Table_tennis-1 img {
+    width: 160px;
     position: relative;
-    top: -101px;
-    transform: translatey(-28px);
-    padding: 9px 10px;
-    background: rgb(56, 55, 55);
-    background: linear-gradient(0deg, rgb(0 0 0 / 58%) 10%, rgb(0 0 0 / 1%) 80%);
-    transition: 0.5s ease;
+    bottom: -44px;
+    left: -7px;
+    transition: all 0.5s ease;
 }
 
-/* 2nd card End  */
+.card:hover .Table_tennis-1 img {
+    width: 189px;
+    position: relative;
+    bottom: -15px;
+    left: -34px;
+    transition: all 0.5s ease;
+}
+
+.card .Table_tennis-2 img {
+        width: 46px;
+        position: relative;
+        bottom: 20px;
+        left: 28px;
+        transition: all 0.5s ease;
+}
+
+.card:hover .Table_tennis-2 img {
+    width: 44px;
+    position: relative;
+    bottom: -19px;
+    left: -74px;
+    transition: all 0.5s ease;
+}
+
+/* 3rd card End */
+
+/* 4th card start */
+.card .wrestling-1 img {
+    width: 131px;
+    position: relative;
+    bottom: -46px;
+    left: -24px;
+    transition: all 0.5s ease;
+}
+
+.card:hover .wrestling-1 img {
+    width: 131px;
+    position: relative;
+    bottom: -27px;
+    left: 27px;
+    transition: all 0.5s ease;
+}
+
+
+.card .wrestling-2 img {
+    width: 123px;
+    position: relative;
+    bottom: -39px;
+    left: 28px;
+    transition: all 0.5s ease;
+}
+/* 4th card End */
 
 
 
 
-
-
-
-
-
-/* cards section start*/
+/*cards section End*/
