@@ -67,7 +67,7 @@ nav {
 
 ul.nav-links {
     margin: 0;
-    padding-top: 64px;
+    padding-top: 34px;
 }
 
 .nav-links li {
@@ -90,7 +90,7 @@ ul.nav-links {
 }
 
 .login-button {
-    padding-top: 51px;
+    padding-top: 36px;
 }
 
 .login-button a {
