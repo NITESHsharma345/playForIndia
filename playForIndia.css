@@ -32,8 +32,9 @@
     --dark: #343a40;
 }
 
-/* header and navigation start's from here */
 
+
+/* header and navigation start's from here */
 header {
     background-image: url(image_folder/banner_header.png);
     width: 100%;
@@ -109,7 +110,6 @@ ul.nav-links {
     color: var(--orange);
     box-shadow: 3px 6px 20px 0px black;
 }
-
 /* header and navigation End's from here */
 
 
@@ -144,7 +144,6 @@ ul.nav-links {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 18px;
-
 }
 
 /* text-banner end from here */
@@ -161,8 +160,8 @@ ul.nav-links {
     /* Added height to fit the image */
     padding: 10px;
     border-radius: 5px;
-    margin: 10px;
-    box-shadow: 3px 1px 10px #00000078;
+    margin: 27px;
+    box-shadow: 1px 7px 17px #00000061;
     text-align: center;
     position: relative;
     display: flex;
@@ -172,16 +171,16 @@ ul.nav-links {
 }
 
 .card:hover {
-    box-shadow: -6px -3px 11px #00000078;
-    transition: all 0.5s ease;
-}
+        box-shadow: 1px 11px 17px #00000078;
+        transition: all 0.5s ease;
+    }
 
 
-.card_container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
+    .card_container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 
 .card_container a {
     text-decoration: none;
@@ -254,11 +253,11 @@ ul.nav-links {
     background: linear-gradient(0deg, rgb(0 0 0 / 82%) 10%, rgb(55 53 53 / 0%) 80%);
     transition: all 0.5s ease;
 }
-
 /* 1st card satrt */
 
-/* 2nd card start  */
 
+
+/* 2nd card start  */
 .card h4 {
     font-family: "Montserrat", sans-serif;
     font-size: 25px;
@@ -323,9 +322,7 @@ ul.nav-links {
     padding: 6px 13px;
     background: linear-gradient(0deg, rgb(0 0 0 / 68%) 10%, rgb(0 0 0 / 1%) 80%);
     transition: all 0.5s ease;
-
 }
-
 /* 2nd card End */
 
 
@@ -399,11 +396,10 @@ ul.nav-links {
     overflow: hidden;
     width: 300px;
     height: 178px;
-    /* Added height to fit the image */
     padding: 10px;
     border-radius: 5px;
-    margin: 10px;
-    box-shadow: 3px 1px 10px #00000078;
+    margin: 27px;
+    box-shadow: 1px 5px 15px #00000057;
     text-align: center;
     position: relative;
     display: flex;
@@ -413,10 +409,9 @@ ul.nav-links {
 }
 
 .card_2:hover {
-    box-shadow: -6px -3px 11px #00000078;
-    transition: all 0.5s ease;
-}
-
+        box-shadow: 1px 11px 17px #00000078;
+        transition: all 0.5s ease;
+    }
 
 .card_container {
     display: flex;
@@ -436,7 +431,6 @@ ul.nav-links {
     transition: all 0.5s ease;
 }
 
-
 .card_2:hover .football-1_img img {
     width: 166px;
     position: relative;
@@ -444,7 +438,6 @@ ul.nav-links {
     left: -48px;
     transition: all 0.5s ease;
 }
-
 
 .football-2_img img {
     width: 41px;
@@ -504,7 +497,7 @@ ul.nav-links {
 /* 5th card End */
 
 
-/* 6th card start */
+/* Athletics card start */
 .basketball-2_img .athletics-2 img {
     position: relative;
     width: 130px;
@@ -542,7 +535,8 @@ ul.nav-links {
     left: -18px;
     transition: all 0.5s ease;
 }
-/* 6th card start */
+/* Athletics card End */
+
 
 
 
@@ -638,18 +632,17 @@ ul.nav-links {
     transition: all 0.5s ease;
 }
 .card_2 .Chess-2 img {
-    width: 69px;
+    width: 110px;
     position: relative;
-    top: 46px;
-    left: -27px;
+    top: 45px;
+    left: -21px;
     transition: all 0.5s ease;
 }
 .card_2:hover .Chess-2 img {
-    width: 80px;
+    width: 110px;
     position: relative;
-    top: 20px;
-    left: -31px;
-    transform: rotate(10deg);
+    top: 3px;
+    left: -21px;
     transition: all 0.5s ease;
 }
 
@@ -661,7 +654,7 @@ ul.nav-links {
     width: 153px;
     position: relative;
     top: 18px;
-    left: -43px;
+    left: -22px;
     transition: all 0.5s ease;
 }
 
@@ -675,17 +668,17 @@ ul.nav-links {
 
 
 .card_2 .Carrom-2 img {
-    width: 93px;
+    width: 115px;
     position: relative;
-    top: 3px;
-    left: 29px;
+    top: 38px;
+    left: 25px;
     transition: all 0.5s ease;
 }
 .card_2:hover .Carrom-2 img {
-    width: 97px;
+    width: 125px;
     position: relative;
-    top: 3px;
-    left: -26px;
+    top: 24px;
+    left: -2px;
     transition: all 0.5s ease;
 }
 
@@ -807,18 +800,18 @@ ul.nav-links {
 
 /* 15th .card start  */
 .card_2 .Cricket-1 img {
-    width: 151px;
+    width: 204px;
     position: relative;
-    top: 37px;
-    left: 0px;
+    top: 24px;
+    left: 33px;
     transition: all 0.5s ease;
 }
 
 .card_2:hover .Cricket-1 img {
-    width: 167px;
+    width: 210px;
     position: relative;
-    top: 27px;
-    left: 1px;
+    top: 7px;
+    left: 33px;
     transition: all 0.5s ease;
 }
 
@@ -850,16 +843,13 @@ ul.nav-links {
     transition: all 0.5s ease;
 }
 
-
-
 .card_2:hover .Swimming-1 img {
     width: 171px;
     position: relative;
-    top: 46px;
+    top: 20px;
     left: 140px;
     transition: all 0.5s ease;
 }
-
 
 .card_2 .Swimming-2 img {
     width: 305px;
@@ -868,10 +858,11 @@ ul.nav-links {
     left: -82px;
     transition: all 0.5s ease;
 }
+
 .card_2:hover .Swimming-2 img {
     width: 334px;
     position: relative;
-    top: 81px;
+    top: 63px;
     left: -98px;
     transition: all 0.5s ease;
 }
@@ -879,15 +870,15 @@ ul.nav-links {
 
 /* 17th card start */
 .card .Kabaddi-1 img {
-    width: 194px;
+    width: 258px;
     position: relative;
-    bottom: -46px;
-    left: 0px;
+    bottom: -51px;
+    left: 41px;
     transition: all 0.5s ease;
 }
 
 .card:hover .Kabaddi-1 img {
-    width: 194px;
+    width: 258px;
     position: relative;
     bottom: -46px;
     left: -22px;
@@ -895,17 +886,17 @@ ul.nav-links {
 }
 
 .card .Kabaddi-2 img {
-    width: 102px;
+    width: 128px;
     position: relative;
-    bottom: -2px;
-    left: -153px;
+    bottom: 12px;
+    left: -127px;
     transition: all 0.5s ease;
 }
 .card:hover .Kabaddi-2 img {
-    width: 104px;
+    width: 128px;
     position: relative;
     bottom: 3px;
-    left: -130px;
+    left: -80px;
     transition: all 0.5s ease;
 }
 /* 17th card End */
@@ -969,22 +960,24 @@ ul.nav-links {
 /* 19th card End */
 
 
-/* 19th card start */
+/* Archery card start */
 
 .card .Archery-1 img {
-    width: 160px;
+    width: 162px;
     position: relative;
-    bottom: -44px;
-    left: -41px;
+    bottom: -36px;
+    left: 14px;
     transition: all 0.5s ease;
+    opacity: 0.3;
 }
 
 .card:hover .Archery-1 img {
-    width: 160px;
+    width: 162px;
     position: relative;
-    bottom: -22px;
-    left: -8px;
+    bottom: -17px;
+    left: 17px;
     transition: all 0.5s ease;
+    opacity: 0.3;
 }
 
 .card .Archery-2 img {
@@ -999,11 +992,11 @@ ul.nav-links {
 .card:hover .Archery-2 img {
     width: 151px;
     position: relative;
-    bottom: -50px;
+    bottom: -30px;
     left: -4px;
     transition: all 0.5s ease;
 }
-/* 19th card End */
+/* Archery card End */
 /*cards section End*/
 
 
