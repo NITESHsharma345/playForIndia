@@ -123,7 +123,7 @@ ul.nav-links {
 /* text-banner starts from here */
 .text_banner {
     width: 100%;
-    padding: 20px;
+    padding: 20px 142px;
 }
 
 .banner-text_container {
@@ -131,6 +131,7 @@ ul.nav-links {
     background-color: #004878;
     color: var(--light);
     padding: 20px;
+    border-radius: 5px;
 }
 
 .banner-text_container h1 {
