@@ -110,6 +110,7 @@ ul.nav-links {
     color: var(--orange);
     box-shadow: 3px 6px 20px 0px black;
 }
+
 /* header and navigation End's from here */
 
 
@@ -152,7 +153,7 @@ ul.nav-links {
 /* section no.1 end from here */
 
 /* cards section start*/
-/* 1st card satrt */
+/* batminton card satrt */
 .card {
     background-color: #D2454C;
     overflow: hidden;
@@ -172,16 +173,16 @@ ul.nav-links {
 }
 
 .card:hover {
-        box-shadow: 1px 11px 17px #00000078;
-        transition: all 0.5s ease;
-    }
+    box-shadow: 1px 11px 17px #00000078;
+    transition: all 0.5s ease;
+}
 
 
-    .card_container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
+.card_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 .card_container a {
     text-decoration: none;
@@ -254,11 +255,12 @@ ul.nav-links {
     background: linear-gradient(0deg, rgb(0 0 0 / 82%) 10%, rgb(55 53 53 / 0%) 80%);
     transition: all 0.5s ease;
 }
-/* 1st card satrt */
+
+/* batminton card satrt */
 
 
 
-/* 2nd card start  */
+/* basketball card start  */
 .card h4 {
     font-family: "Montserrat", sans-serif;
     font-size: 25px;
@@ -324,10 +326,11 @@ ul.nav-links {
     background: linear-gradient(0deg, rgb(0 0 0 / 68%) 10%, rgb(0 0 0 / 1%) 80%);
     transition: all 0.5s ease;
 }
-/* 2nd card End */
+
+/* basketball card End */
 
 
-/* 3rd card start */
+/* Table_tennis card start */
 .card .Table_tennis-1 img {
     width: 160px;
     position: relative;
@@ -360,9 +363,9 @@ ul.nav-links {
     transition: all 0.5s ease;
 }
 
-/* 3rd card End */
+/* Table_tennis card End */
 
-/* 4th card start */
+/* wrestling card start */
 .card .wrestling-1 img {
     width: 131px;
     position: relative;
@@ -387,10 +390,11 @@ ul.nav-links {
     left: 28px;
     transition: all 0.5s ease;
 }
-/* 4th card End */
+
+/* wrestling card End */
 
 
-/* 5th card start */
+/*   card start */
 /* second card color */
 .card_2 {
     background-color: #536CDC;
@@ -410,9 +414,9 @@ ul.nav-links {
 }
 
 .card_2:hover {
-        box-shadow: 1px 11px 17px #00000078;
-        transition: all 0.5s ease;
-    }
+    box-shadow: 1px 11px 17px #00000078;
+    transition: all 0.5s ease;
+}
 
 .card_container {
     display: flex;
@@ -495,7 +499,8 @@ ul.nav-links {
     transition: all 0.5s ease;
 
 }
-/* 5th card End */
+
+/* Football card End */
 
 
 /* Athletics card start */
@@ -536,12 +541,13 @@ ul.nav-links {
     left: -18px;
     transition: all 0.5s ease;
 }
+
 /* Athletics card End */
 
 
 
 
-/* 7th card start */
+/* Taekwondo card start */
 
 .basketball-2_img .Taekwondo-2 img {
     width: 136px;
@@ -567,7 +573,7 @@ ul.nav-links {
     transition: all 0.5s ease;
 }
 
-.card:hover .basketball-2_img .Taekwondo-2 img{
+.card:hover .basketball-2_img .Taekwondo-2 img {
     width: 136px;
     position: relative;
     bottom: -30px;
@@ -575,10 +581,10 @@ ul.nav-links {
     transition: all 0.5s ease;
 }
 
-/* 7th card start */
+/* Taekwondo card start */
 
 
-/* 8th card start */
+/* Tennis card start */
 
 .card_2 .Tennis-1 img {
     width: 148px;
@@ -604,6 +610,7 @@ ul.nav-links {
     left: 26px;
     transition: all 0.5s ease;
 }
+
 .card_2:hover .Tennis-2 img {
     width: 20px;
     position: relative;
@@ -612,10 +619,10 @@ ul.nav-links {
     transition: all 0.5s ease;
 }
 
-/* 8th card End */
+/* Tennis card End */
 
 
-/* 9th card start  */
+/* chess card start  */
 
 .card_2 .Chess-1 img {
     width: 203px;
@@ -632,6 +639,7 @@ ul.nav-links {
     left: -12px;
     transition: all 0.5s ease;
 }
+
 .card_2 .Chess-2 img {
     width: 110px;
     position: relative;
@@ -639,6 +647,7 @@ ul.nav-links {
     left: -21px;
     transition: all 0.5s ease;
 }
+
 .card_2:hover .Chess-2 img {
     width: 110px;
     position: relative;
@@ -647,9 +656,9 @@ ul.nav-links {
     transition: all 0.5s ease;
 }
 
-/* 9th card End  */
+/* chess card End  */
 
-/* 10th .card start  */
+/* Carrom .card start  */
 
 .card_2 .Carrom-1 img {
     width: 153px;
@@ -675,6 +684,7 @@ ul.nav-links {
     left: 25px;
     transition: all 0.5s ease;
 }
+
 .card_2:hover .Carrom-2 img {
     width: 125px;
     position: relative;
@@ -683,10 +693,10 @@ ul.nav-links {
     transition: all 0.5s ease;
 }
 
-/* 10th card End  */
+/* Carrom card End  */
 
 
-/* 11th .card start  */
+/* Kho-Kho .card start  */
 .card_2 .Kho_Kho-1 img {
     width: 161px;
     position: relative;
@@ -711,6 +721,7 @@ ul.nav-links {
     left: 3px;
     transition: all 0.5s ease;
 }
+
 .card_2:hover .Kho_Kho-2 img {
     width: 133px;
     position: relative;
@@ -718,10 +729,11 @@ ul.nav-links {
     left: -31px;
     transition: all 0.5s ease;
 }
-/* 11th card End  */
+
+/* Kho-kho card End  */
 
 
-/* 12th .card start  */
+/* Shooting .card start  */
 .card_2 .Shooting-1 img {
     width: 151px;
     position: relative;
@@ -746,6 +758,7 @@ ul.nav-links {
     left: 0px;
     transition: all 0.5s ease;
 }
+
 .card_2:hover .Shooting-2 img {
     width: 100px;
     position: relative;
@@ -753,10 +766,11 @@ ul.nav-links {
     left: -24px;
     transition: all 0.5s ease;
 }
-/* 12th card End  */
+
+/* Shooting card End  */
 
 
-/* 13th card start */
+/* Cycling card start */
 .card .Cycling-1 img {
     width: 171px;
     position: relative;
@@ -774,9 +788,10 @@ ul.nav-links {
     transition: all 0.5s ease;
     transform: rotate(7deg);
 }
-/* 13th card End */
 
-/* 14th card start */
+/* Cycling card End */
+
+/* tug_of-war card start */
 
 .card .tug_of-war img {
     width: 210px;
@@ -795,11 +810,11 @@ ul.nav-links {
     transition: all 0.5s ease;
 }
 
-/* 14th card End */
+/* tug_of-war card End */
 
 
 
-/* 15th .card start  */
+/* Cricket .card start  */
 .card_2 .Cricket-1 img {
     width: 204px;
     position: relative;
@@ -823,6 +838,7 @@ ul.nav-links {
     left: 0px;
     transition: all 0.5s ease;
 }
+
 .card_2:hover .Cricket-2 img {
     width: 100px;
     position: relative;
@@ -830,10 +846,11 @@ ul.nav-links {
     left: -24px;
     transition: all 0.5s ease;
 }
-/* 15th card End*/
+
+/* Cricket card End*/
 
 
-/* 16th card start */
+/* Swimming card start */
 
 
 .card_2 .Swimming-1 img {
@@ -867,9 +884,10 @@ ul.nav-links {
     left: -98px;
     transition: all 0.5s ease;
 }
-/* 16th card End */
 
-/* 17th card start */
+/* Swimming card End */
+
+/* Kabaddi card start */
 .card .Kabaddi-1 img {
     width: 258px;
     position: relative;
@@ -893,6 +911,7 @@ ul.nav-links {
     left: -127px;
     transition: all 0.5s ease;
 }
+
 .card:hover .Kabaddi-2 img {
     width: 128px;
     position: relative;
@@ -900,10 +919,11 @@ ul.nav-links {
     left: -80px;
     transition: all 0.5s ease;
 }
-/* 17th card End */
+
+/* Kabaddi card End */
 
 
-/* 18th card start */
+/* Handball card start */
 
 .card .Handball-1 img {
     width: 189px;
@@ -922,9 +942,9 @@ ul.nav-links {
     transition: all 0.5s ease;
 }
 
-/* 18th card End */
+/* Handball card End */
 
-/* 19th card start */
+/* VolleyBall card start */
 
 .card .VolleyBall-1 img {
     width: 160px;
@@ -958,7 +978,8 @@ ul.nav-links {
     left: -34px;
     transition: all 0.5s ease;
 }
-/* 19th card End */
+
+/* VolleyBall card End */
 
 
 /* Archery card start */
@@ -997,6 +1018,7 @@ ul.nav-links {
     left: -4px;
     transition: all 0.5s ease;
 }
+
 /* Archery card End */
 /*cards section End*/
 
@@ -1011,14 +1033,14 @@ footer {
     padding: 20px 0;
     margin-top: 20px;
     text-align: center;
-}
+} 
 
 .footer-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -1060,10 +1082,12 @@ footer {
     color: var(--light);
     font-size: 30px;
     margin: 0 10px;
-    transition: color 0.3s ease; 
+    transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-    color: var(--cyan); /* Color on hover, you can change this */
+    color: var(--cyan);
+    /* Color on hover, you can change this */
 }
-  /* footer end here */
+
+/* footer end here */
