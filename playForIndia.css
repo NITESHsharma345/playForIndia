@@ -108,7 +108,7 @@ ul.nav-links {
 .login-button a:hover {
     background-color: var(--light);
     color: var(--orange);
-    box-shadow: 3px 6px 20px 0px black;
+    box-shadow: -3px 0px 20px 0px #232222c2;
 }
 
 /* header and navigation End's from here */
@@ -155,7 +155,7 @@ ul.nav-links {
 /* cards section start*/
 /* batminton card satrt */
 .card {
-    background-color: #D2454C;
+    background-color: #536CDC;
     overflow: hidden;
     width: 300px;
     height: 178px;
@@ -1080,7 +1080,7 @@ footer {
 
 .social-icons a {
     color: var(--light);
-    font-size: 30px;
+    font-size: 19px;
     margin: 0 10px;
     transition: color 0.3s ease;
 }
