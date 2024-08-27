@@ -1091,3 +1091,29 @@ footer {
 }
 
 /* footer end here */
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    nav {
+        display: none;
+        width: 100%;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .show-menu {
+        display: flex !important;
+    }
+}
