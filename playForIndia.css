@@ -121,7 +121,7 @@ ul.nav-links {
     flex-shrink: 0;
 }
 
-/* text-banner starts from here */
+/* text- starts from here */
 .text_banner {
     width: 100%;
     padding: 20px 142px;
@@ -1023,6 +1023,128 @@ ul.nav-links {
 /*cards section End*/
 
 
+/* 2nd page for registration-btn start */
+.registration-btn_container {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 50px;
+}
+
+
+.registration-btn_container a {
+    color: var(--light);
+    background-color: #0056B3;
+    font-family: Montserrat;
+    text-decoration: none;
+    line-height: normal;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+/* 2nd page for registration-btn End */
+
+/*sport toggler button start*/
+
+.Select_sport-toggler {
+    padding: 34px 79px;
+}
+
+.select_sport span {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.72px;
+}
+
+/*sport toggler button End*/
+
+/* drope-down Css start */
+select.select-box {
+    position: relative;
+    width: 92%;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    top: 17px;
+    left: 57px;
+}
+
+
+.select_container select,option{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.game_rule h4{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+
+}
+
+.game_rule {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.game_rule>ul{
+    position: relative;
+    left: 40px;
+    top: 10px;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.text_banner-2 {
+    width: 100%;
+    padding: 20px 142px;
+}
+
+.banner-text_container-2 {
+    text-align: center;
+    background-color: #004878;
+    color: var(--light);
+    margin-top: 59px;
+    padding: 24px 2px;
+    border-radius: 5px;
+}
+
+.banner-text_container-2 h2 {
+    font-family: "Bebas Neue", sans-serif;
+    word-spacing: 5px;
+    font-weight: 400;
+    font-size: 46px;
+    letter-spacing: 5px;
+}
+
+
+/* drope-down Css End */
+/* 2nd page drope-Down */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Footer start from here.... */
 
 /* Footer Styles */
@@ -1033,7 +1155,7 @@ footer {
     padding: 20px 0;
     margin-top: 20px;
     text-align: center;
-} 
+}
 
 .footer-content {
     display: flex;
