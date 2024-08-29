@@ -1077,12 +1077,13 @@ select.select-box {
 }
 
 
-.select_container select,option{
+.select_container select,
+option {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
 }
 
-.game_rule h4{
+.game_rule h4 {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
 
@@ -1097,7 +1098,7 @@ select.select-box {
     left: 50px;
 }
 
-.game_rule>ul{
+.game_rule>ul {
     position: relative;
     left: 40px;
     top: 10px;
@@ -1127,12 +1128,197 @@ select.select-box {
     letter-spacing: 5px;
 }
 
-
 /* drope-down Css End */
 /* 2nd page drope-Down */
 
+/* package section start */
+.voucher_section {
+    display: flex;
+    justify-content: center;
+}
+
+.voucher_section .package-img {
+    padding: 20px;
+}
+
+.package-img img {
+    width: 317px;
+}
+
+.package-img:hover img {
+    width: 320px;
+    box-shadow: 0px 7px 20px 0px #00000094;
+}
+
+/* package section end */
 
 
+/* form section start from here */
+
+.form-container {
+    background-color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    padding: 0 50px;
+    margin: 48px auto;
+    border-radius: 10px;
+    width: 701px;
+}
+
+.form-container h2 {
+    text-align: left;
+    margin-bottom: 28px;
+    font-weight: 400;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+}
+
+.form-group-age {
+    position: relative;
+    font-weight: 400;
+    display: grid;
+    top: 21px;
+}
+
+.form-group-age input {
+    padding: 10px;
+    width: 50%;
+    border-radius: 9px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    position: relative;
+    cursor: pointer;
+}
+.form-container .gender {
+    position: relative;
+    display: grid;
+    top: -36px;
+    left: 53%;
+}
+
+
+select#gender {
+    padding: 10px;
+    width: 47%;
+    border-radius: 9px;
+}
+
+input#Coordinators_Phone {
+    padding: 10px;
+    width: 47%;
+    border-radius: 9px;
+}
+
+.participateAs_Student h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    position: relative;
+    padding: 20px;
+    top: 23px;
+    left: 59px;
+    font-size: 35px;
+    width: 96%;
+}
+
+
+
+.form-group select option {
+    padding: 10px;
+}
+
+
+.form-group input[type="submit"] {
+    background-color: #EF8844;
+    color: #F8F8F8;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 20px;
+    position: relative;
+    left: 50%;
+    top: 20px;
+    transition: 0.1s;
+}
+
+
+
+.form-group a {
+    background-color: #EF8844;
+    color: #F8F8F8;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 83px;
+    border-radius: 20px;
+    position: relative;
+    left: 13%;
+    top: -24px;
+    transition: 0.1s;
+}
+
+.form-group input[type="submit"]:hover, .form-group:hover a {
+    color: #EF8844;
+    background-color: #F8F8F8;
+    box-shadow: 0px 1px 4px 0px #0000004a;
+    transition: 1s;
+
+}
+
+.form-container-disable{
+    color: #b6b6b6;
+}
+
+
+.form-group input[type="radio"] {
+    width: auto;
+}
+
+.form-group .gender-label {
+    font-weight: normal;
+
+}
+
+/* form section start from here */
 
 
 

@@ -37,4 +37,17 @@ const sportSelector = document.getElementById('sportSelector');
 });
 
 
+// JavaScript to show/hide forms
+document.getElementById("schoolBtn").addEventListener("click", function () {
+  document.getElementById("schoolForm").style.display = "block";
+  document.getElementById("studentForm").style.display = "none";
+});
+
+document.getElementById("studentBtn").addEventListener("click", function () {
+  document.getElementById("studentForm").style.display = "block";
+  document.getElementById("schoolForm").style.display = "none";
+});
+
+
+
 
