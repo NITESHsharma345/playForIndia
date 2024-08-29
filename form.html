@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>playforIndia</title>
+
+    <link rel="shortcut icon" type="x-icon" href="image_folder/ICON@4x.png">
+    <!-- External CSS link -->
+    <link rel="stylesheet" href="playForIndia.css">
+    <!-- font awsome url-Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- header section start's from here git remove-->
+    <header class="header_background-img">
+        <div class="container-fluid">
+            <div class="brand_logo">
+                <img src="image_folder/ICON@4x.png" alt="logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Championship</a></li>
+                    <li><a href="#">Sport</a></li>
+                    <li><a href="#">About us</a></li>
+                </ul>
+            </nav>
+            <div class="login-button">
+                <a href="#">Log-In</a>
+            </div>
+            <!-- <div class="hamburger-menu" id="hamburger-menu">
+                &#9776;
+            </div> -->
+        </div>
+    </header>
+    <!-- header end's here test -->
+
+    <!-- Registration buttons start from here -->
+    <section>
+        <div class="participateAs_Student">
+            <h3>Participate As</h3>
+        </div>
+
+        <div class="registration-btn_container">
+            <div class="registerAs_School">
+                <a href="#" id="schoolBtn">REGISTER AS SCHOOL/ACADEMY</a>
+            </div>
+
+            <div class="registerAs_Student">
+                <a href="#" id="studentBtn">REGISTER AS STUDENT</a>
+            </div>
+        </div>
+    </section>
+    <!-- Registration buttons end here -->
+
+    <!-- School Registration Form -->
+    <section id="schoolForm" class="form-container" style="display: none;">
+        <h2>Register As School/Academy</h2>
+        <form>
+            <div class="form-group">
+                <label for="schools_Name">School's Name:</label>
+                <input type="text" id="schools_Name" name="schools_Name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Coordinator_Name">Coordinator Name:</label>
+                <input type="Coordinator_Name" id="Coordinator_Name" name="Coordinator_Name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Schools_Email">Schools Email:</label>
+                <input type="text" id="Schools_Email" name="Schools_Email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Coordinator_Email">Coordinator Email:</label>
+                <input type="text" id="Coordinator_Email" name="Coordinator_Email" required>
+            </div>
+
+            <div class="form-group-age">
+                <label for="school_phone_no">School,s Phone No. :</label>
+                <input type="tel" id="school_phone_no" name="school_phone_no" required>
+            </div>
+
+            <div class="gender">
+                <label for="Coordinators_Phone">Coordinator's Phone No. :</label>
+                <input type="tel" id="Coordinators_Phone" name="Coordinators_Phone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="Schools_Address">School's Address:</label>
+                <textarea id="Schools_Address" name="Schools_Address" rows="3" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Next">
+            </div>
+
+            <div class="form-group">
+                <a href="card_page.html">Back</a>
+            </div>
+    </section>
+
+    <!-- Student Registration Form -->
+    <section id="studentForm" class="form-container" style="display: none;">
+        <h2>Register As Student</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name Student:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group-age">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+
+            <div class="gender">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="" disabled selected>Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="father_name">Father's Name:</label>
+                <input type="text" id="father_name" name="father_name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mother_name">Mother's Name:</label>
+                <input type="text" id="mother_name" name="mother_name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="school_name">School Name:</label>
+                <input type="text" id="school_name" name="school_name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="3" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Next">
+            </div>
+
+            <div class="form-group">
+                <a href="card_page.html">Back</a>
+            </div>
+    </section>
+    <!-- student registration form End -->
+
+    <!--disable form start from Here -->
+
+    <section id="BasicInformatiom" class="form-container" style="display: block;">
+        <div class="form-container-disable">
+            <h2>Basic Information</h2>
+            <form id="studentForm">
+                <div class="form-group">
+                    <label for="name">Name Student:</label>
+                    <input type="text" id="name" name="name" required disabled>
+                </div>
+
+                <div class="form-group-age">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" required disabled>
+                </div>
+
+                <div class="gender">
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required disabled>
+                        <option value="" disabled selected>Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="father_name">Father's Name:</label>
+                    <input type="text" id="father_name" name="father_name" required disabled>
+                </div>
+
+                <div class="form-group">
+                    <label for="mother_name">Mother's Name:</label>
+                    <input type="text" id="mother_name" name="mother_name" required disabled>
+                </div>
+
+                <div class="form-group">
+                    <label for="school_name">School Name:</label>
+                    <input type="text" id="school_name" name="school_name" required disabled>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required disabled>
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <textarea id="address" name="address" rows="3" required disabled></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required disabled>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Next" disabled>
+                </div>
+
+                <div class="form-group">
+                    <a href="card_page.html">Back</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- disable form End Here -->
+
+    <!-- Footer satrt form Here -->
+    <section>
+        <footer>
+            <div class="footer-content">
+                <div class="footer_text">
+                    <p>© 2024 PLAYFORINDIA.COM.
+                        <span>All Rights Reserved by Play For India Pvt Ltd.</span>
+                    </p>
+                </div>
+
+                <div class="term_and-condition">
+                    <ul>
+                        <li><a href="#">Terms And Condition |</a></li>
+                        <li><a href="#">Privacy Policy |</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/people/Play-India/pfbid0K7MydfeMhLKqEKZRMcuWipPpzNLtHqso96oKLJ2T9pPAZwMZT3v1cJXbwY4C9NY5l/?ref=xav_ig_profile_web"
+                        target="_blank">
+                        <i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/play_4india/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/@Play4India-b8u" target="_blank">
+                        <i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <script src="script.js"></script>
+
+    <script>
+        document.getElementById("schoolBtn").addEventListener("click", function () {
+            document.getElementById("schoolForm").style.display = "block";
+            document.getElementById("studentForm").style.display = "none";
+            document.getElementById("BasicInformatiom").style.display = "none";
+
+            // Change button color on click
+            document.getElementById("schoolBtn").style.backgroundColor = "#0056B3";  // color for school button
+            document.getElementById("studentBtn").style.backgroundColor = "#8B8B8B"; // color of student button
+        });
+
+        document.getElementById("studentBtn").addEventListener("click", function () {
+            document.getElementById("studentForm").style.display = "block";
+            document.getElementById("schoolForm").style.display = "none";
+            document.getElementById("BasicInformatiom").style.display = "none";
+
+            // Change button color on click
+            document.getElementById("studentBtn").style.backgroundColor = "#0056B3"; // color for student button
+            document.getElementById("schoolBtn").style.backgroundColor = "#8B8B8B";  // color of school button
+        });
+
+    </script>
+</body>
+
+</html>
