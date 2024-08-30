@@ -28,9 +28,11 @@
                     <li><a href="#">About us</a></li>
                 </ul>
             </nav>
-            <div class="login-button">
+            
+            <!-- <div class="login-button">
                 <a href="#">Log-In</a>
-            </div>
+            </div> -->
+
             <!-- <div class="hamburger-menu" id="hamburger-menu">
                 &#9776;
             </div> -->
@@ -45,12 +47,12 @@
         </div>
 
         <div class="registration-btn_container">
-            <div class="registerAs_School">
-                <a href="#" id="schoolBtn">REGISTER AS SCHOOL/ACADEMY</a>
+            <div class="registerAs_School"  id="schoolBtn">
+                <a href="#">REGISTER AS SCHOOL/ACADEMY</a>
             </div>
 
-            <div class="registerAs_Student">
-                <a href="#" id="studentBtn">REGISTER AS STUDENT</a>
+            <div class="registerAs_Student" id="studentBtn">
+                <a href="#">REGISTER AS STUDENT</a>
             </div>
         </div>
     </section>
@@ -59,7 +61,7 @@
     <!-- School Registration Form -->
     <section id="schoolForm" class="form-container" style="display: none;">
         <h2>Register As School/Academy</h2>
-        <form>
+        <form action="connect.php" method="POST">
             <div class="form-group">
                 <label for="schools_Name">School's Name:</label>
                 <input type="text" id="schools_Name" name="schools_Name" required>
@@ -96,7 +98,7 @@
             </div>
 
             <div class="form-group">
-                <input type="submit" value="Next">
+                <input type="submit" value="submit">
             </div>
 
             <div class="form-group">
@@ -159,7 +161,7 @@
             </div>
 
             <div class="form-group">
-                <input type="submit" value="Next">
+                <input type="submit" value="submit">
             </div>
 
             <div class="form-group">
@@ -225,7 +227,7 @@
                 </div>
 
                 <div class="form-group">
-                    <input type="submit" value="Next" disabled>
+                    <input type="submit" value="submit" disabled>
                 </div>
 
                 <div class="form-group">

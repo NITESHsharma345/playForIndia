@@ -1033,18 +1033,24 @@ ul.nav-links {
 
 
 .registration-btn_container a {
-    color: var(--light);
-    background-color: #0056B3;
-    font-family: Montserrat;
+    color: #F8F8F8;
     text-decoration: none;
-    line-height: normal;
-    font-style: normal;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
-    padding: 10px 30px;
-    border-radius: 10px;
 }
 
+.registerAs_School{
+    background-color: #8B8B8B;
+    padding: 20px 40px;
+    border-radius: 10px;
+
+}
+
+.registerAs_Student {
+    background-color: #8B8B8B;
+    padding: 19px 81px;
+    border-radius: 10px;
+}
 /* 2nd page for registration-btn End */
 
 /*sport toggler button start*/
@@ -1090,12 +1096,12 @@ option {
 }
 
 .game_rule {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Hind", sans-serif;
     font-weight: 300;
     font-size: 28px;
     position: relative;
     top: 50px;
-    left: 50px;
+    left: 39px;
 }
 
 .game_rule>ul {
@@ -1106,26 +1112,26 @@ option {
     line-height: 50px;
 }
 
-.text_banner-2 {
+.text_banner-3 {
     width: 100%;
     padding: 20px 142px;
 }
 
-.banner-text_container-2 {
+.banner-text_container-3 {
     text-align: center;
-    background-color: #004878;
+    background-color: #0056B3;
     color: var(--light);
     margin-top: 59px;
-    padding: 24px 2px;
-    border-radius: 5px;
+    padding: 24px 4px;
+    border-radius: 10px;
 }
 
-.banner-text_container-2 h2 {
-    font-family: "Bebas Neue", sans-serif;
-    word-spacing: 5px;
+.banner-text_container-3 h2 {
+    font-family: "Montserrat", sans-serif;
+    word-spacing: 7px;
     font-weight: 400;
-    font-size: 46px;
-    letter-spacing: 5px;
+    font-size: 31px;
+    letter-spacing: -0.8px;
 }
 
 /* drope-down Css End */
@@ -1138,15 +1144,21 @@ option {
 }
 
 .voucher_section .package-img {
-    padding: 20px;
+    padding: 25px;
+    margin: 20px;
 }
 
 .package-img img {
-    width: 317px;
+    border-radius: 10px;
+    width: 330px;
 }
 
-.package-img:hover img {
-    width: 320px;
+.package_3-img img{
+    border-radius: 10px;
+    width: 361px;
+    margin-top: 20px;
+}
+.package-img:hover img, .package_3-img:hover img {
     box-shadow: 0px 7px 20px 0px #00000094;
 }
 
