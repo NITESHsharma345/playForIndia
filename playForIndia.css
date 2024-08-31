@@ -36,7 +36,7 @@
 
 /* header and navigation start's from here */
 header {
-    background-image: url(image_folder/banner_header.png);
+    background-image: url(images/banner_header.png);
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -119,6 +119,7 @@ ul.nav-links {
 .banner_section img {
     width: 100%;
     flex-shrink: 0;
+    border-radius: 0;
 }
 
 /* text- starts from here */
@@ -1039,7 +1040,7 @@ ul.nav-links {
     font-weight: 500;
 }
 
-.registerAs_School{
+.registerAs_School {
     background-color: #8B8B8B;
     padding: 20px 40px;
     border-radius: 10px;
@@ -1051,6 +1052,7 @@ ul.nav-links {
     padding: 19px 81px;
     border-radius: 10px;
 }
+
 /* 2nd page for registration-btn End */
 
 /*sport toggler button start*/
@@ -1153,12 +1155,14 @@ option {
     width: 330px;
 }
 
-.package_3-img img{
+.package_3-img img {
     border-radius: 10px;
     width: 361px;
     margin-top: 20px;
 }
-.package-img:hover img, .package_3-img:hover img {
+
+.package-img:hover img,
+.package_3-img:hover img {
     box-shadow: 0px 7px 20px 0px #00000094;
 }
 
@@ -1239,6 +1243,7 @@ option {
     position: relative;
     cursor: pointer;
 }
+
 .form-container .gender {
     position: relative;
     display: grid;
@@ -1308,7 +1313,8 @@ input#Coordinators_Phone {
     transition: 0.1s;
 }
 
-.form-group input[type="submit"]:hover, .form-group:hover a {
+.form-group input[type="submit"]:hover,
+.form-group:hover a {
     color: #EF8844;
     background-color: #F8F8F8;
     box-shadow: 0px 1px 4px 0px #0000004a;
@@ -1316,7 +1322,7 @@ input#Coordinators_Phone {
 
 }
 
-.form-container-disable{
+.form-container-disable {
     color: #b6b6b6;
 }
 
@@ -1333,15 +1339,421 @@ input#Coordinators_Phone {
 /* form section start from here */
 
 
+/* home page starts from here */
+.playfor_india-update {
+    padding: 30px 40px;
+}
+
+.playfor_india-update_text span {
+    font-family: Hind, sans-serif;
+    color: #EF8844;
+}
+
+.playfor_india-update_text h2 {
+    font-family: Montserrat, sans-serif;
+    color: #0056B3;
+}
+
+.update-card {
+    display: flex;
+    justify-content: left;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+
+.update-card_1 {
+    position: relative;
+    padding-left: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.update-card_1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background-color: #9747FF;
+}
+
+.update-card_1 {
+    background-color: #E9E8E8;
+    color: #161616;
+    font-family: Hind;
+    padding: 19px 37px;
+    width: 238px;
+    height: 82px;
+    margin: 10px 20px;
+}
+
+.update-card_1 span {
+    display: block;
+    background-color: #E9E8E8;
+    margin: -3px auto;
+}
+
+.update-card_1 a img {
+    position: relative;
+    width: 19px;
+    left: 166px;
+}
+
+.overview_para {
+    font-family: Hind, sans-serif;
+    width: 84%;
+    text-align: left;
+    padding-top: 20px;
+}
+
+
+/* .overview slider start from here */
+
+.Overview_slider {
+    width: 100%;
+    padding-top: 50px;
+
+}
+
+.slider {
+    width: 100%;
+    max-width: 800px;
+    max-height: 400px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.slides {
+    display: flex;
+    transition: 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    transition: 0.5s;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.prev {
+    left: 0;
+    border-radius: 10px;
+}
+
+.next {
+    right: 0;
+    border-radius: 10px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* .overview slider End here */
+
+/* home page End here */
+
+
+
+/* championship page satrt */
+
+.champion-page_heading {
+    display: block;
+    color: #FFF;
+    text-align: right;
+    font-family: Montserrat;
+    position: relative;
+    top: -495px;
+    left: 65%;
+    width: 392px;
+    height: 0px;
+}
+
+.champion-page_heading h1 {
+    font-size: 37px;
+    margin-bottom: 20px;
+}
+
+.champion_page-vedio img {
+    border-radius: 64px 0px 63px 0px;
+}
+
+.about-champion {
+    display: flex;
+}
+
+.about-champion p {
+    font-family: Hind, sans-serif;
+    width: 75%;
+    padding-top: 20px;
+}
+
+.about-champion .About_for_paly-img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.About_for_paly-img img {
+    position: relative;
+    width: 500px;
+    max-height: 300px;
+    top: -33px;
+    left: 204px;
+}
+
+.playfor_india-champion {
+    padding: 30px 40px;
+    display: flex;
+}
+
+.playfor_india-champion_text span {
+    font-family: Hind, sans-serif;
+    color: #EF8844;
+}
+
+.playfor_india-champion_text h4 {
+    font-family: Montserrat, sans-serif;
+    color: #0056B3;
+    font-size: 36px;
+}
+
+
+/* multi-sport championship End */
+
+.multi-sport-container {
+    font-family: Hind, sans-serif;
+    width: 100%;
+    padding: 5px 46px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.multi-sport-text {
+    width: 121px;
+    line-height: 16px;
+}
+
+.multi-sport-container h4 {
+    color: #0056B3;
+    margin-bottom: 5px;
+}
+
+.multi-sport-container span {
+    color: #000000;
+}
+
+.multi-sport_img,
+.multi-sport_img-2 {
+    height: 0;
+}
+
+.multi-sport_img svg {
+    width: 100%;
+    position: relative;
+    top: -185px;
+    left: -462px;
+}
+
+.multi-sport_img-2 svg {
+    position: relative;
+    top: -130px;
+    left: 940px;
+}
+
+.playfor_india-champion_text {
+    padding: 100px 50px 0px;
+}
+
+/* multi-sport championship End */
+
+/* podium start */
+.podium_img {
+    width: 100%;
+    background: rgba(0, 86, 179, 0.12);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.podium_text {
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+}
+
+.podium_text span {
+    color: #0056B3;
+    font-family: Hind;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -1.12px;
+}
+
+.podium_text a {
+    text-align: center;
+    text-decoration: none;
+    color: #F8F8F8;
+    background-color: #0056B3;
+    font-family: Hind;
+    font-size: 20px;
+    margin-top: 70%;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+
+/* podium Ending */
+
+/* sport-Icon section start */
+.sport_icon-container {
+    font-family: Montserrat;
+    font-size: 18px;
+    padding: 18px 10px 0px;
+    text-align: center;
+}
+
+.sport_icon-container .sport_icon {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.sport_icon-container .sport {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+
+.sport img {
+    margin: 25px 20px;
+}
+
+/* championship page end */
+
+
+/* Wisest section satrt */
+.wisest_container {
+    width: 100%;
+    background: rgba(0, 86, 179, 0.12);
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wisest_card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 6px 20px 2px black;
+}
+
+.wisest_card .wisest_card-img img{
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.wisest_card-text {
+    color: #000;
+    font-weight: 500;
+    padding: 30px;
+    font-family: Hind;
+}
+
+.wisest_card-text span{
+    color: #000;
+    font-weight: 600;
+    font-family: Hind;
+}
+.wisest_card-text p {
+    color: #000;
+    font-weight: 500;
+    font-family: Hind;
+}
+
+.wisest_card-text h4 {
+    color: #0056B3;
+    font-weight: 500;
+    font-family: Montserrat;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* Wisest section end */
+
+
+/* Grid Layout for Images */
+
+/* best-moment section start */
+
+.best-moment-container{
+    width: 100%;
+     background: rgba(0, 86, 179, 0.12);
+    padding: 30px;
+}
+
+.moment_img-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}   
+
+.moment_img-2 img{
+    display: grid;
+    grid-row: 2;
+    margin-bottom: 20px;
+}
+
+
+.best-moment-container-2{
+    width: 100%;
+     background: rgba(2, 2, 2, 0.12);
+    padding: 30px;
+}
+
+.best-moment-container-3{
+    width: 100%;
+     background: rgba(234, 78, 78, 0.12);
+    padding: 30px;
+}
 
 
 
 
 
 
-
-
-
+/* best-moment section End */
 
 /* Footer start from here.... */
 
@@ -1414,26 +1826,130 @@ footer {
 
 
 /* Responsive styles */
-@media (max-width: 768px) {
-    nav {
-        display: none;
+/* Default styles (for large screens like desktops) */
+/* Your existing styles will work well for larger screens */
+
+/* Mobile First Approach (Start with small screens and scale up) */
+
+/* Mobile (portrait) - up to 600px */
+@media (max-width: 600px) {
+    .champion-page_heading {
+        text-align: center;
+        top: -250px;
+        left: 0;
         width: 100%;
+        height: auto;
     }
 
-    .nav-links {
+    .champion-page_heading h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .champion_page-vedio img {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 20px;
+    }
+
+    .about-champion {
         flex-direction: column;
+        text-align: center;
+    }
+
+    .about-champion p {
         width: 100%;
+        padding: 10px;
     }
 
-    .nav-links li {
-        margin: 10px 0;
+    .About_for_paly-img img {
+        width: 100%;
+        max-width: 300px;
+        top: 0;
+        left: 0;
     }
 
-    .hamburger-menu {
-        display: block;
+    .playfor_india-champion {
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+
+/* Tablet - 601px to 900px */
+@media (min-width: 601px) and (max-width: 900px) {
+    .champion-page_heading {
+        text-align: center;
+        top: -163px;
+        left: 0;
+        width: 44%;
+        height: auto;
     }
 
-    .show-menu {
-        display: flex !important;
+    .champion-page_heading h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .champion_page-vedio img {
+        width: 100%;
+        max-width: 175px;
+        border-radius: 64px 0px 63px 0px;
+    }
+
+    .about-champion {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .about-champion p {
+        width: 70%;
+    }
+
+    .About_for_paly-img img {
+        width: 80%;
+        max-width: 400px;
+        top: 0;
+        left: 0;
+    }
+
+    .playfor_india-champion {
+        flex-direction: row;
+        padding: 30px;
+    }
+}
+
+/* Large Screens - 901px and up */
+@media (min-width: 901px) {
+    .champion-page_heading {
+        top: -495px;
+        left: 65%;
+        width: 392px;
+    }
+
+    .champion-page_heading h1 {
+        font-size: 37px;
+    }
+
+    .champion_page-vedio img {
+        max-width: 500px;
+        border-radius: 64px 0px 63px 0px;
+    }
+
+    .about-champion {
+        flex-direction: row;
+    }
+
+    .about-champion p {
+        width: 75%;
+    }
+
+    .About_for_paly-img img {
+        width: 500px;
+        top: -33px;
+        left: 204px;
+    }
+
+    .playfor_india-champion {
+        flex-direction: row;
     }
 }
