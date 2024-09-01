@@ -22,9 +22,9 @@
             </div>
             <nav>
                 <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Championship</a></li>
-                    <li><a href="#">Sport</a></li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="champion.html">Championship</a></li>
+                    <li><a href="index.html">Sport</a></li>
                     <li><a href="#">About us</a></li>
                 </ul>
             </nav>
@@ -304,27 +304,51 @@
             <h4>The Best Moments</h4>
         </div>
 
-        <div class="best-moment-slider">
-            <div class="best-moment-container">
-                <div class="moment_img-container">
-                    <div class="moment_img-1">
-                        <img src="images/memory-1.png" alt="">
-                    </div>
-                    <div class="moment_img-2">
-                        <img src="images/memory-2.png" alt="">
-                        <img src="images/memory-3.png" alt="">
-                    </div>
+        <div class="Overview_slider">
+            <div class="slider">
+                <div class="slides">
+                    <!-- Images -->
+                    <div class="slide"><img src="images/moment-1.png"alt="Image 1"></div>
+                    <div class="slide"><img src="images/moment-2.png" alt="Image 2"></div>
+                    <div class="slide"><img src="images/moment-3.png    " alt="Image 3"></div>
+                </div>
+
+                <!-- Navigation Arrows -->
+                <a class="prev" onclick="prevSlide()">&#10094;</a>
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- best-movement section End -->
+
+
+    
+
+<!-- register for upcomeing event section start -->
+    <section>
+
+        <div class="register_banner_container">
+            <div class="register_banner">
+                <div class="register_banner-icon">
+                    <img src="images/PRIMARY@4x.png" alt="">
+                </div>
+
+                <div class="register_banner-text">
+                    <p>Register For Delhi’s Largest Multi-Sport</p>
+                    <span>Competition</span>
+                </div>
+
+                <div class="register_banner-btn">
+                    <a href="form.html">Register for upcoming event</a>
                 </div>
             </div>
         </div>
-
-
-
+        
+        
     </section>
+<!-- register for upcomeing event section start -->
 
-
-
-    <!-- best-movement section End -->
 
     <!-- Footer satrt form Here -->
     <section>
@@ -366,9 +390,48 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <script>
-
-</script>
-    
+    $(document).ready(function () {
+       let currentIndex = 0;
+       const slides = $('.slide');
+       const totalSlides = slides.length;
+       const slideDuration = 3000; 
+   
+       // Show the first slide
+       slides.hide().eq(currentIndex).show();
+   
+       function showSlide(index) {
+           slides.hide(); // Hide all slides
+           slides.eq(index).show(); // Show the current slide
+       }
+   
+       // Next slide
+       window.nextSlide = function () {
+           currentIndex = (currentIndex + 1) % totalSlides;
+           showSlide(currentIndex);
+       };
+   
+       // Previous slide
+       window.prevSlide = function () {
+           currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+           showSlide(currentIndex);
+       };
+   
+       // Automatic sliding
+       const autoSlide = setInterval(function () {
+           nextSlide(); // Automatically go to the next slide
+       }, slideDuration);
+   
+       // Manual navigation (next/prev) pauses the auto slide
+       $('.prev, .next').click(function () {
+           clearInterval(autoSlide); // Stop automatic sliding on manual interaction
+           if ($(this).hasClass('next')) {
+               nextSlide();
+           } else {
+               prevSlide();
+           }
+       });
+   });
+       </script>
 </body>
 
 </html>
