@@ -116,6 +116,15 @@ ul.nav-links {
 
 
 /* section no.1 starts from here */
+.amin {
+    padding-top: 50px;
+    transition: all 1s;
+}
+
+.animshow {
+    padding-top: 0;
+}
+
 .banner_section img {
     width: 100%;
     flex-shrink: 0;
@@ -227,6 +236,7 @@ ul.nav-links {
 .card .text h4 {
     font-family: "Montserrat", sans-serif;
     font-size: 25px;
+    color: #fff;
 }
 
 .card span {
@@ -265,6 +275,7 @@ ul.nav-links {
 .card h4 {
     font-family: "Montserrat", sans-serif;
     font-size: 25px;
+    color: #fff;
 }
 
 
@@ -468,6 +479,7 @@ ul.nav-links {
 .card_2 .football_text h4 {
     font-family: "Montserrat", sans-serif;
     font-size: 25px;
+    color: #fff;
 }
 
 .card_2 span {
@@ -1349,7 +1361,8 @@ input#Coordinators_Phone {
     color: #EF8844;
 }
 
-.playfor_india-update_text h2 {
+.playfor_india-update_text h2,
+h4 {
     font-family: Montserrat, sans-serif;
     color: #0056B3;
 }
@@ -1480,6 +1493,63 @@ input#Coordinators_Phone {
 
 /* .overview slider End here */
 
+/* 2nd crousal start */
+
+.event_slider {
+    padding: 50px 0px;
+}
+
+.event_slide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #0056B3;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.event_slide p {
+    color: #F8F8F8;
+    font-family: Montserrat;
+    font-size: 60px;
+}
+
+.event_img img {
+    width: 500px;
+}
+
+.event_slide span {
+    font-size: 30px;
+}
+
+.event_slider {
+    position: relative;
+}
+
+button.prev,
+button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+
+/* 2nd crousal end */
+
 /* home page End here */
 
 
@@ -1492,15 +1562,21 @@ input#Coordinators_Phone {
     text-align: right;
     font-family: Montserrat;
     position: relative;
-    top: -495px;
-    left: 65%;
-    width: 392px;
+    top: -566px;
+    left: 58%;
+    width: 592px;
     height: 0px;
 }
 
 .champion-page_heading h1 {
-    font-size: 37px;
+    font-size: 55px;
     margin-bottom: 20px;
+}
+
+.champion_page-vedio {
+    width: 545px;
+    position: relative;
+    left: 3pc;
 }
 
 .champion_page-vedio img {
@@ -1513,8 +1589,10 @@ input#Coordinators_Phone {
 
 .about-champion p {
     font-family: Hind, sans-serif;
+    color: #161616;
     width: 75%;
     padding-top: 20px;
+    font-size: 22px;
 }
 
 .about-champion .About_for_paly-img {
@@ -1524,9 +1602,9 @@ input#Coordinators_Phone {
 
 .About_for_paly-img img {
     position: relative;
-    width: 500px;
-    max-height: 300px;
-    top: -33px;
+    width: 600px;
+    max-height: 316px;
+    top: -45px;
     left: 204px;
 }
 
@@ -1538,12 +1616,14 @@ input#Coordinators_Phone {
 .playfor_india-champion_text span {
     font-family: Hind, sans-serif;
     color: #EF8844;
+    font-size: 28px;
 }
 
 .playfor_india-champion_text h4 {
     font-family: Montserrat, sans-serif;
     color: #0056B3;
-    font-size: 36px;
+    font-size: 39px;
+    font-weight: 700;
 }
 
 
@@ -1552,24 +1632,27 @@ input#Coordinators_Phone {
 .multi-sport-container {
     font-family: Hind, sans-serif;
     width: 100%;
-    padding: 5px 46px;
+    padding: 55px 92px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .multi-sport-text {
-    width: 121px;
-    line-height: 16px;
+    width: 155px;
+    line-height: 18px;
 }
 
 .multi-sport-container h4 {
     color: #0056B3;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 .multi-sport-container span {
-    color: #000000;
+    color: #161616;
+    font-weight: 400;
 }
 
 .multi-sport_img,
@@ -1578,21 +1661,22 @@ input#Coordinators_Phone {
 }
 
 .multi-sport_img svg {
-    width: 100%;
+    width: 25%;
     position: relative;
-    top: -185px;
-    left: -462px;
+    top: -213px;
 }
 
 .multi-sport_img-2 svg {
     position: relative;
-    top: -130px;
-    left: 940px;
+    width: 23%;
+    top: -169px;
+    left: 77%;
 }
 
 .playfor_india-champion_text {
-    padding: 100px 50px 0px;
+    padding: 50px 50px 0px;
 }
+
 
 /* multi-sport championship End */
 
@@ -1677,7 +1761,7 @@ input#Coordinators_Phone {
     box-shadow: 0px 6px 20px 2px black;
 }
 
-.wisest_card .wisest_card-img img{
+.wisest_card .wisest_card-img img {
     width: 300px;
     background-color: #fff;
     border-radius: 10px;
@@ -1690,11 +1774,12 @@ input#Coordinators_Phone {
     font-family: Hind;
 }
 
-.wisest_card-text span{
+.wisest_card-text span {
     color: #000;
     font-weight: 600;
     font-family: Hind;
 }
+
 .wisest_card-text p {
     color: #000;
     font-weight: 500;
@@ -1717,87 +1802,156 @@ input#Coordinators_Phone {
 
 /* best-moment section start */
 
-.best-moment-container{
+.best-moment-container {
     width: 100%;
-     background: rgba(0, 86, 179, 0.12);
+    background: rgba(0, 86, 179, 0.12);
     padding: 30px;
 }
 
-.moment_img-container{
+.moment_img-container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-}   
+}
 
-.moment_img-2 img{
+.moment_img-2 img {
     display: grid;
     grid-row: 2;
     margin-bottom: 20px;
 }
 
 
-.best-moment-container-2{
+.best-moment-container-2 {
     width: 100%;
-     background: rgba(2, 2, 2, 0.12);
+    background: rgba(2, 2, 2, 0.12);
     padding: 30px;
 }
 
-.best-moment-container-3{
+.best-moment-container-3 {
     width: 100%;
-     background: rgba(234, 78, 78, 0.12);
+    background: rgba(234, 78, 78, 0.12);
     padding: 30px;
 }
+
 /* best-moment section End */
 
 /* register banner start */
-.register_banner_container{
-    padding: 30px 30px;
-    font-family: Hind,sans-serif;
-    font-weight: 600;
-}
-
-.register_banner{
-    display: flex;
-    justify-content: space-around;
-    background-color: #0056B3;
-    border-radius: 20px;
+.register_banner {
     padding: 30px;
 }
 
-.register_banner-text{
-    color: #fff;
-    font-size: 20px;
-}
-
-.register_banner-btn a{
-    color: #0056B3;
-    text-decoration: none;
-    font-size: 15px;
-    padding: 10px 20px;
-    border-radius: 30px;
-    background-color: #fff;
-    box-shadow: 5px 2px 5px black;
-}
-
-.register_banner-btn:hover a{
-    color: #0056B3;
-    text-decoration: none;
-    font-size: 15px;
-    padding: 10px 20px;
-    border-radius: 30px;
-    background-color: #fff;
-    box-shadow: 0px 3px 20px 0px black;
-}
-
-.register_banner-btn{
-    margin-top: 20px;
-}
-
-.register_banner-icon img {
-    width: 200px;
-}
 /* register banner start */
 
+/* champion_makeing section start */
+
+.champion_makeing-section {
+    padding: 30px;
+}
+
+.champion_makeing-section>.event_slide {
+    background-color: #fff;
+    width: 100%;
+}
+
+.champion_makeing-section>.event_slide p {
+    color: #0056B3;
+    font-size: 40px;
+}
+
+.champion_makeing-section .champion_makeing-text p {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 20px auto;
+    color: #000;
+    line-height: 39px;
+    word-spacing: 5px;
+}
+
+
+
+
+/* champion_makeing section End */
+
+/* about us section start */
+.about_us p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    margin-top: 20px;
+    letter-spacing: -0.48px;
+}
+
+.goal_list {
+    margin-top: 20px;
+    font-family: Montserrat;
+    padding: 0 25px;
+}
+
+.goal_list ul>span {
+    font-size: 20px;
+    color: #000;
+}
+
+.goal_list ul li {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    list-style: decimal;
+}
+
+
+/* about us f&Q */
+/* Style for the dropdown container */
+.fandQselector .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Button style */
+.fandQselector .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown content style */
+.fandQselector .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.fandQselector .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of links on hover */
+.fandQselector .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown content on hover */
+.fandQselector .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the button background on hover */
+.fandQselector .dropdown:hover .dropbtn:active {
+    background-color: #3e8e41;
+}
 
 /* Footer start from here.... */
 
@@ -1870,130 +2024,6 @@ footer {
 
 
 /* Responsive styles */
-/* Default styles (for large screens like desktops) */
-/* Your existing styles will work well for larger screens */
-
-/* Mobile First Approach (Start with small screens and scale up) */
 
 /* Mobile (portrait) - up to 600px */
-@media (max-width: 600px) {
-    .champion-page_heading {
-        text-align: center;
-        top: -250px;
-        left: 0;
-        width: 100%;
-        height: auto;
-    }
-
-    .champion-page_heading h1 {
-        font-size: 24px;
-        margin-bottom: 10px;
-    }
-
-    .champion_page-vedio img {
-        width: 100%;
-        max-width: 300px;
-        border-radius: 20px;
-    }
-
-    .about-champion {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .about-champion p {
-        width: 100%;
-        padding: 10px;
-    }
-
-    .About_for_paly-img img {
-        width: 100%;
-        max-width: 300px;
-        top: 0;
-        left: 0;
-    }
-
-    .playfor_india-champion {
-        flex-direction: column;
-        padding: 20px;
-    }
-}
-
-/* Tablet - 601px to 900px */
-@media (min-width: 601px) and (max-width: 900px) {
-    .champion-page_heading {
-        text-align: center;
-        top: -163px;
-        left: 0;
-        width: 44%;
-        height: auto;
-    }
-
-    .champion-page_heading h1 {
-        font-size: 30px;
-        margin-bottom: 15px;
-    }
-
-    .champion_page-vedio img {
-        width: 100%;
-        max-width: 175px;
-        border-radius: 64px 0px 63px 0px;
-    }
-
-    .about-champion {
-        flex-direction: row;
-        text-align: left;
-    }
-
-    .about-champion p {
-        width: 70%;
-    }
-
-    .About_for_paly-img img {
-        width: 80%;
-        max-width: 400px;
-        top: 0;
-        left: 0;
-    }
-
-    .playfor_india-champion {
-        flex-direction: row;
-        padding: 30px;
-    }
-}
-
-/* Large Screens - 901px and up */
-@media (min-width: 901px) {
-    .champion-page_heading {
-        top: -495px;
-        left: 65%;
-        width: 392px;
-    }
-
-    .champion-page_heading h1 {
-        font-size: 37px;
-    }
-
-    .champion_page-vedio img {
-        max-width: 500px;
-        border-radius: 64px 0px 63px 0px;
-    }
-
-    .about-champion {
-        flex-direction: row;
-    }
-
-    .about-champion p {
-        width: 75%;
-    }
-
-    .About_for_paly-img img {
-        width: 500px;
-        top: -33px;
-        left: 204px;
-    }
-
-    .playfor_india-champion {
-        flex-direction: row;
-    }
-}
+@media (max-width: 600px) {}

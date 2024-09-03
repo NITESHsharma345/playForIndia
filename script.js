@@ -50,6 +50,27 @@ const sportSelector = document.getElementById('sportSelector');
 
 
 
+//  scroll anim,ation start
+
+function textAnim() {
+  var reveals = document.querySelectorAll('.amin');
+  for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+
+      if (elementTop+100 < windowHeight - elementVisible) {
+          reveals[i].classList.add("animshow");
+      } else {
+         // reveals[i].classList.remove("animshow");
+      }
+  }
+}
+window.addEventListener("scroll", textAnim);
+
+//  scroll anim,ation End
+
+
 
 
 
